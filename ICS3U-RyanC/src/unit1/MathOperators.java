@@ -58,7 +58,7 @@ public class MathOperators {
          Print out, using one println statement, what 45 degrees Celsius is in Fahrenheit
          System.out.println("45c * 9/5 +32")
          Print out, using a print and a println statement, what 900 Fahrenheit is in Celsius
-      */     System.out.println("900f-32*5/9");
+      */     System.out.println("900f-32 *5/9");
       
       /*
          Part 3
