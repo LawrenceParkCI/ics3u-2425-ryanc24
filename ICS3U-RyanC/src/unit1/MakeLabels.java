@@ -1,4 +1,14 @@
-package unit1;
+//*
+ /* Description: Using string variables
+ /* Date: Oct. 2nd, 2024
+/ * @author: Caden Ryan
+ */
+
+
+
+
+ package unit1;
+ 
 
 import java.util.Scanner;
 
