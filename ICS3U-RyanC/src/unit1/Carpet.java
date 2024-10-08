@@ -1,7 +1,11 @@
 package unit1;
 
 import java.util.Scanner;
-
+/**
+ * Description: Calculating cost of a carpet
+ * Date: Oct, 8. 2024
+ * @author: Caden Ryan
+ */
 public class Carpet {
 
 	public static void main(String[] args) {
