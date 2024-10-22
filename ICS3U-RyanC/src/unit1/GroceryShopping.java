@@ -17,7 +17,7 @@ public class GroceryShopping {
         Scanner input = new Scanner(System.in);
         
         // Title bar
-        System.out.println("|| $$$ \\\\ ========== \"Your Name's Grocery\" ========== /// $$$ ||");
+        System.out.println("|| $$$ \\\\ ========== \"Caden's Grocery\" ========== /// $$$ ||");
         System.out.println();
 
         // Asking for the first product details
@@ -48,7 +48,7 @@ public class GroceryShopping {
 
         // Printing the receipt
         System.out.println("This is your receipt:\n");
-        System.out.println("           Your Name's Grocery");
+        System.out.println("           Caden's Grocery");
         
         // Print current date and time
         LocalDateTime now = LocalDateTime.now();
@@ -76,8 +76,25 @@ public class GroceryShopping {
 
         System.out.println();
         System.out.println("Have a good day!");
-        System.out.println("Thank you for shopping at Your Name's Grocery!");
+        System.out.println("Thank you for shopping at Caden's Grocery!");
 
 	}
 
 }
+//If you used print() in your program:
+//I used print() instead of println() in lines 19, 21, and 23 when prompting the user for product details. I used print() to keep the cursor on the same line as the user's input, making it more natural for the user to type after the prompt without moving to a new line.
+//Variables created for the program:
+//String product1, product2: These are used to store the names of the products. String is used because product names are text.
+//double price1, price2: These store the prices of the products. double is chosen for precision in decimal values.
+//int quantity1, quantity2: These store the quantities of each product purchased. int is used because the quantity is a whole number.
+//double totalPrice1, totalPrice2: These calculate the total cost for each product (price * quantity). double is used for precision in monetary values.
+//double subtotal, tax, total: These are used to calculate and store the subtotal, tax, and total values. double is used for precision.
+//long totalRounded: This is used to store the total rounded to the nearest dollar. long is used because we are working with whole numbers.
+//double totalRounded5Cents: This stores the total rounded to the nearest 5 cents. double is used to maintain precision for monetary values.
+//Data types not used:
+//I did not use char in the program. char is used to store single characters, which were not required in this program as we were dealing with text, numbers, and calculations.
+//Constants:
+//Constants are fixed values in a program that do not change. They are considered good practice because they make the code easier to maintain and understand, as well as prevent accidental modifications. In this program, TAX_RATE is a constant because the tax rate is a fixed value that should not change throughout the program.
+//Use of constants in the program:
+//The TAX_RATE constant is used to calculate the tax. By defining it as a constant, it is easy to adjust the tax rate in the future without needing to modify multiple parts of the code.
+
