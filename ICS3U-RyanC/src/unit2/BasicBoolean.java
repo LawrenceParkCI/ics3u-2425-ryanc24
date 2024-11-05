@@ -1,9 +1,9 @@
 package unit2;
 
 /**
-* Description:
-* Date:
-* @author
+* Description: using boolean 
+* Date:Nov, 4th 2024
+* @author Caden Ryan
 */
 
 public class BasicBoolean {
