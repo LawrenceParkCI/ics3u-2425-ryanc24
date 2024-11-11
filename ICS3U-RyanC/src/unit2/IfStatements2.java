@@ -3,9 +3,9 @@ package unit2;
 import java.util.Scanner;
 
 /**
-* Description:
-* Date:
-* @author
+* Description: using if statements
+* Date: Nov 11th, 2024
+* @author Caden Ryan
 */
 
 public class IfStatements2 {
