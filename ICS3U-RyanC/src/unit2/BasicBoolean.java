@@ -31,7 +31,7 @@ public class BasicBoolean {
     System.out.println("2: " + (firstNum > secondNum)); 
 
     //this prints out ____true____ because ______6 is greater than 5__________
-    System.out.println("3: " + (firsttNum <= (int)thirdNum)); 
+    System.out.println("3: " + (firstNum <= (int)thirdNum)); 
     //this prints out _____true___ because ____5.5 is greater than 5____________
     System.out.println("4: " + (firstNum <= thirdNum)); 
 
