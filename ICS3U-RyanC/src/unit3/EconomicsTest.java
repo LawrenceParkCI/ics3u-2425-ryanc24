@@ -1,8 +1,16 @@
 package unit3;
-
+/*
+ * Description: Econimics test final project
+ * Date: Jan, 14th 2025
+ * @author: Caden Ryan
+ */
 import java.util.Scanner;
 
 public class EconomicsTest {
+	/**
+	 * This is the entry point to the program
+	 * @param args unused
+	 */
 
     public static void main(String[] args) {
         int score = 0;  // Initialize the score to 0
